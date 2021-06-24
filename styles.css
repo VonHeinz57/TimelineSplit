@@ -1,0 +1,43 @@
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(2, 99, 2);
+    color: rgba(255, 255, 255, 0.95);
+    border-bottom: 2px solid rgba(255, 255, 255, 0.95);
+}
+
+header {
+    background-image: url("/Users/loganheinz/Workspaces/OoT Timeline Split Theory/images/headerphoto.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 150px;
+    text-shadow: 2px 2px black;
+}
+
+.welcome {
+    height: calc(100vh - 150px);
+    border-bottom: 2px solid rgba(255, 255, 255, 0.95);
+}
+
+.timetravel, .synopsis, .theory {
+    border-bottom: 2px solid rgba(255, 255, 255, 0.95);
+    min-height: 100vh;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
