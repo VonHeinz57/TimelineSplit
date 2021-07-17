@@ -46,6 +46,7 @@ p {
     margin: 0px 10px 5px;
     font-size: small;
     line-height: 1.2rem;
+    margin-bottom: 1rem;
 }
 
 .sub1, .sub3, .sub5 {
@@ -62,6 +63,33 @@ img {
     border-radius: 40px;
 }
 
+form {
+    background-color: lightgrey;
+    border-radius: 10px;
+    margin: 5px;
+}
+
+label {
+    color: black;
+    margin-left: 15px;
+}
+
+input {
+    margin-left: 5px;
+    height: 1rem;
+}
+
+#comment {
+    margin-left: 5px;
+    width: 90%;
+    height: 4rem;   
+}
+
+footer {
+    position: center;
+    text-align: center;
+    margin: 10px;
+}
 
 
 
