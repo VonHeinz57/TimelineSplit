@@ -32,12 +32,12 @@ div:nth-child(2n+1) {
 }
 
 h1 {
-    font-size: 72px;
+    font-size: 104px;
     padding: 2.5%;
 }
 
 h2{
-    font-size: 54px;
+    font-size: 72px;
     padding: 5%;
     line-height: 1.5em;
 }
@@ -55,7 +55,7 @@ h3 {
 
 p {
     margin: 0px 5% 2.5%;
-    font-size: 16px;
+    font-size: 24px;
     margin-bottom: 2.5rem;
 }
 
