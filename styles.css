@@ -6,13 +6,13 @@ body {
     border-bottom: 2px solid rgba(255, 255, 255, 0.95);
     font-family: Open Sans, sans-serif;
     margin: 0px;
-    line-height: 1.5em;
-    letter-spacing: 0.05em;
+    line-height: 350%;
+    letter-spacing: 0.06rem;
 }
 
 header {
     text-shadow: 5px 5px black;
-    line-height: 5em;
+    line-height: 5rem;
 }
 
 .welcome {
@@ -34,12 +34,13 @@ div:nth-child(2n+1) {
 h1 {
     font-size: 104px;
     padding: 2.5%;
+    line-height: 125%;
 }
 
 h2{
     font-size: 72px;
     padding: 5%;
-    line-height: 1.5em;
+    line-height: 110%;
 }
 
 h1, h2{
@@ -50,7 +51,7 @@ h1, h2{
 
 h3 {
     text-align: center;
-    font-size: 24px;
+    font-size: 48px;
 }
 
 p {
@@ -82,17 +83,26 @@ form {
 label {
     color: black;
     margin-left: 15px;
+    font-size: xxx-large;
 }
 
 input {
     margin-left: 5px;
-    height: 1rem;
+    height: 50px;
+    width: 500px
 }
 
 #comment {
     margin-left: 5px;
     width: 90%;
-    height: 4rem;   
+    height: 250px;   
+}
+
+#submit {
+    border-radius: 40px;
+    background-color: lightgreen;
+    font-size: XX-large;
+    width: 300px;
 }
 
 footer {
