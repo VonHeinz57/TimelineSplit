@@ -20,9 +20,12 @@ header {
     border-bottom: 2px solid rgba(255, 255, 255, 0.95);
 }
 
+#welcomecontent, #theorycontent, #synopsiscontent, #timetravelcontent {
+    display: none;
+}
+
 .timetravel, .synopsis, .theory {
     border-bottom: 2px solid rgba(255, 255, 255, 0.95);
-    min-height: 100vh;
 }
 
 div:nth-child(2n+1) {
@@ -41,6 +44,7 @@ h2{
     font-size: 72px;
     padding: 5%;
     line-height: 110%;
+    display: flex;
 }
 
 h1, h2{
@@ -111,8 +115,23 @@ footer {
     margin: 10px;
 }
 
+.subheadingbutton {
+    width: 0;
+	height: 0;
+	border-top: 25px solid rgb(2, 99, 2);
+	border-left: 50px solid black;
+	border-bottom: 25px solid rgb(2, 99, 2);
+    align-items: right;
+}
 
-
+.subheadingbuttony {
+    width: 0;
+	height: 0;
+	border-top: 25px solid goldenrod;
+	border-left: 50px solid black;
+	border-bottom: 25px solid goldenrod;
+    align-items: right;
+}
 
 
 
