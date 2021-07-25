@@ -10,7 +10,7 @@ body {
     letter-spacing: 0.06rem;
 }
 
-header {
+.title {
     text-shadow: 5px 5px black;
     line-height: 5rem;
 }
@@ -49,8 +49,6 @@ h2{
 }
 
 h1, h2 {
-    position: sticky;
-    top: 0;
     margin: 2.5%;
 }
 
@@ -123,7 +121,7 @@ footer {
     padding: 5%;
 }
 
-span {
+.subheading1, .subheading2 {
     display: flex;
     justify-content: space-between;
     position: sticky;
@@ -135,21 +133,202 @@ span {
 }
 
 .subheading2 {
-    background-color: goldenrod;
+    background-color: goldenrod; 
+}
+
+.nav-menu {
+    display: none;
 }
 
 
 /* Media Queries */
 
-/*
-320px — 480px: Mobile devices. 
-481px — 768px: iPads, Tablets. 
-769px — 1024px: Small screens, laptops. 
-1025px — 1200px: Desktops, large screens.
-*/
+@media screen and (min-width: 481px) {
+    body {
+        margin: 0px;
+        line-height: 300%;
+        letter-spacing: 0.075rem;
+    }
+    
+    h1 {
+        font-size: 72px;
+        padding: 2.5%;
+        line-height: 125%;
+    }
+    
+    h2{
+        font-size: 48px;
+        padding: 1%;
+        line-height: 110%;
+    }
+    
+    h1, h2 {
+        margin: 2.5%;
+    }
+    
+    h3 {
+        text-align: center;
+        font-size: 36px;
+    }
+    
+    p {
+        margin: 0px 10% 2.5%;
+        font-size: 18px;
+        margin-bottom: 2.5rem;
+    }
 
+    .showhide {
+        display: none;
+    }
 
+    #welcomecontent, #theorycontent, #synopsiscontent, #timetravelcontent {
+    display: block;
+    }
 
+    img {
+        width: 70%;
+        margin: 0 15% 7.5%;
+        border-radius: 40px;
+    }
+
+    .subheading1, .subheading2 {
+        justify-content: left;
+    }
+
+    label {
+        font-size: xx-large;
+    }
+
+    /*Nav bar styling*/    
+    li {
+        list-style: none;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    .navbar {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1rem 1.5rem;
+    }
+
+    .title {
+        flex-basis: 100%;
+    }
+
+    ul {
+        flex-direction: column;
+        flex-basis: 100%;
+        align-items: right;
+    }
+
+    .nav-menu {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0;
+    }
+    
+    .nav-item {
+        display: block;
+    }
+    
+    .nav-link{
+        font-size: 1.6rem;
+        font-weight: 400;
+        color: white;
+    }
+    
+    .nav-link:hover{
+        color: goldenrod;
+        border-bottom: solid;
+        border-bottom-color: goldenrod;
+    }
+}
+
+@media screen and (min-width: 769px) {
+    body {
+        line-height: 250%;
+    }
+    
+    h1 {
+        font-size: 54px;
+        padding: 2.5%;
+        line-height: 125%;
+    }
+    
+    h2{
+        font-size: 32px;
+        padding: 1%;
+        line-height: 110%;
+    }
+    
+    h1, h2 {
+        margin: 2.5%;
+    }
+    
+    h3 {
+        font-size: 20px;
+    }
+    
+    p {
+        margin: 0px 10% 2.5%;
+        font-size: 16px;
+        margin-bottom: 2.5rem;
+    }
+
+    .showhide {
+        display: none;
+    }
+
+    img {
+        width: 40%;
+        margin: 0 30% 5%;
+        border-radius: 40px;
+    }
+
+    .subheading1, .subheading2 {
+        justify-content: left;
+    }
+
+    label {
+        font-size: x-large;
+    }
+
+    /*Nav bar styling*/    
+    .navbar {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1rem 1.5rem;
+    }
+
+    ul {
+        flex-direction: row;
+        align-items: right;
+        margin: auto 2.5%;
+    }
+
+    .nav-menu {
+        align-items: right;
+    }
+     
+    .nav-link{
+        font-size: 1.6rem;
+        font-weight: 400;
+        color: white;
+    }
+    
+    .nav-link:hover{
+        color: goldenrod;
+        border-bottom: solid;
+        border-bottom-color: goldenrod;
+    }
+}
 
 
 

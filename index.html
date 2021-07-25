@@ -9,11 +9,30 @@
 
     <body>
         <header>
-            <h1 class="title">How Ocarina of Time Split the Zelda Timeline</h1>
+            <nav class="navbar">
+                <h1 class="title">How Ocarina of Time Split the Zelda Timeline</h1>
+                <ul class="nav-menu">
+                    <li class="nav-item">
+                        <a href="#welcome" class="nav-link">Welcome</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#timetravel" class="nav-link">Time Travel</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#synopsis" class="nav-link">Synopsis</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#mytheory" class="nav-link">My Theory</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#form" class="nav-link">Feedback</a>
+                    </li>
+                </ul>
+            </nav>
         </header>
         <div class="welcome">
             <span class="subheading1">
-                <h2 class="sub1">Welcome!</h1>
+                <a name="welcome"></a><h2 class="sub1">Welcome!</h1>
                 <img src="./images/tri.png" onclick="displayWelcome()" class="showhide">
             </span>
             <div id="welcomecontent">
@@ -40,7 +59,7 @@
 
         <div class="timetravel">
             <span class="subheading2">
-                <h2 class="sub2">Let's Talk Time Travel</h1>
+                <a name="timetravel"></a><h2 class="sub2">Let's Talk Time Travel</h1>
                 <img src="./images/tri.png" onclick="displayTimeTravel()" class="showhide">
             </span>
             <div id="timetravelcontent">
@@ -107,7 +126,7 @@
 
         <div class="synopsis">
             <span class="subheading1">
-                <h2 class="sub3">Ocarina of Time Synopsis</h1>
+                <a name="synopsis"></a><h2 class="sub3">Ocarina of Time Synopsis</h1>
                 <img src="./images/tri.png" onclick="displaySynopsis()" class="showhide">
             </span>
             <div id="synopsiscontent">
@@ -222,7 +241,7 @@
         </div>
         
         <div>
-        <h2 class="sub5">What Do You Think?</h1>
+        <a name="form"></a><h2 class="sub5">What Do You Think?</h1>
         <form name="feedback" method="post" onsubmit="return validateForm()">
             <label for="name">Your name:</label><br>
             <input type="text" id="name" name="name"><br>
