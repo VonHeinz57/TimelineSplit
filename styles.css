@@ -16,7 +16,6 @@ header {
 }
 
 .welcome {
-    /*min-height: calc(100vh - 150px);*/
     border-bottom: 2px solid rgba(255, 255, 255, 0.95);
 }
 
@@ -31,7 +30,10 @@ header {
 div:nth-child(2n+1) {
     background-color: goldenrod;
     color: black;
-    
+}
+
+.subheading:nth-of-type(2n) {
+    background-color: goldenrod;
 }
 
 h1 {
@@ -44,10 +46,9 @@ h2{
     font-size: 72px;
     padding: 5%;
     line-height: 110%;
-    display: flex;
 }
 
-h1, h2{
+h1, h2 {
     position: sticky;
     top: 0;
     margin: 2.5%;
@@ -115,24 +116,37 @@ footer {
     margin: 10px;
 }
 
-.subheadingbutton {
-    width: 0;
-	height: 0;
-	border-top: 25px solid rgb(2, 99, 2);
-	border-left: 50px solid black;
-	border-bottom: 25px solid rgb(2, 99, 2);
-    align-items: right;
+.showhide {
+    height: 75px;
+    width: 75px;
+    margin: 2.5%;
+    padding: 5%;
 }
 
-.subheadingbuttony {
-    width: 0;
-	height: 0;
-	border-top: 25px solid goldenrod;
-	border-left: 50px solid black;
-	border-bottom: 25px solid goldenrod;
-    align-items: right;
+span {
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
 }
 
+.subheading1 {
+    background-color: rgb(2, 99, 2);
+}
+
+.subheading2 {
+    background-color: goldenrod;
+}
+
+
+/* Media Queries */
+
+/*
+320px — 480px: Mobile devices. 
+481px — 768px: iPads, Tablets. 
+769px — 1024px: Small screens, laptops. 
+1025px — 1200px: Desktops, large screens.
+*/
 
 
 
