@@ -17,6 +17,7 @@ body {
 
 .welcome {
     border-bottom: 2px solid rgba(255, 255, 255, 0.95);
+    border-top: 2px solid rgba(255, 255, 255, 0.95);
 }
 
 #welcomecontent, #theorycontent, #synopsiscontent, #timetravelcontent {
@@ -37,15 +38,16 @@ div:nth-child(2n+1) {
 }
 
 h1 {
-    font-size: 104px;
+    font-size: 54px;
     padding: 2.5%;
     line-height: 125%;
 }
 
 h2{
-    font-size: 72px;
+    font-size: 36px;
     padding: 5%;
     line-height: 110%;
+    text-align: left;
 }
 
 h1, h2 {
@@ -59,7 +61,7 @@ h3 {
 
 p {
     margin: 0px 5% 2.5%;
-    font-size: 24px;
+    font-size: 16px;
     margin-bottom: 2.5rem;
 }
 
@@ -86,7 +88,7 @@ form {
 label {
     color: black;
     margin-left: 15px;
-    font-size: xxx-large;
+    font-size: x-large;
 }
 
 input {
@@ -104,7 +106,7 @@ input {
 #submit {
     border-radius: 40px;
     background-color: lightgreen;
-    font-size: XX-large;
+    font-size: X-large;
     width: 300px;
 }
 
@@ -115,8 +117,8 @@ footer {
 }
 
 .showhide {
-    height: 75px;
-    width: 75px;
+    height: 35px;
+    width: 35px;
     margin: 2.5%;
     padding: 5%;
 }
@@ -140,10 +142,18 @@ footer {
     display: none;
 }
 
+.nav-space {
+    display: none;
+}
+
+.navanchor  {
+    display: none;
+}
+
 
 /* Media Queries */
 
-@media screen and (min-width: 769px) {
+@media only screen and (min-width: 769px) {
     body {
         margin: 0px;
         line-height: 300%;
@@ -151,13 +161,13 @@ footer {
     }
     
     h1 {
-        font-size: 72px;
+        font-size: 54px;
         padding: 2.5%;
         line-height: 125%;
     }
     
     h2{
-        font-size: 48px;
+        font-size: 36px;
         padding: 1%;
         line-height: 110%;
     }
@@ -196,7 +206,11 @@ footer {
     }
 
     label {
-        font-size: xx-large;
+        font-size: x-large;
+    }
+
+    .navanchor  {
+        display: block;
     }
 
     /*Nav bar styling*/    
@@ -250,7 +264,7 @@ footer {
     }
 }
 
-@media screen and (min-width: 1225px) {
+@media only screen and (min-width: 1225px) {
     body {
         line-height: 250%;
     }
@@ -327,6 +341,10 @@ footer {
         color: goldenrod;
         border-bottom: solid;
         border-bottom-color: goldenrod;
+    }
+
+    .nav-space {
+        display: block;
     }
 }
 

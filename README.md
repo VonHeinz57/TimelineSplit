@@ -8,10 +8,12 @@ best in terms of spacing and photo additions.
 
 For the project, I've implimented the following elective features:
 
-    1) CSS: A navigation menu in tablet and desktop views (yet to come, I'm wrapping up the mobile design first). In a tablet view, the navigation menu will be a hamburger menu. In desktop view, there will be a list of tabs at the top of the page.
+    1) CSS: A navigation menu in tablet and desktop views. In a tablet view, the navigation menu is a vertical list below the title. In desktop view, there will be a list of tabs under the title.
     
     2) CSS: Use :nth child to change the background color for specific sections.
 
     3) JavaScript: Create and validate a form. Mine validates that the name and comment are not blank and that the email has a "@" symbol that is not the first character, a "." after the "@" symbol, and at least "co" after the ".".
 
     4) JavaScript: Show/hide content using a button. This functionality is present in mobile view. You click to open each subsection of the article.
+
+    5) (maybe) CSS: The nav menu uses flexbox and changes orientation as the screen size changes.
