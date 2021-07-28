@@ -26,7 +26,7 @@ function validateForm() {
     }
 
     if (validForm == 1) {
-        alert("Thank you for your time and feedback!");
+        alert(`Thanks for your time and feedback, ${x}!`);
     }
 }
 
